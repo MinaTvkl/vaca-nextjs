@@ -1,0 +1,119 @@
+{
+    "productList": [
+        {
+            "productName": "Radiance Cream",
+            "productID": 0,
+            "dateAdded": "2021-01-03",
+            "description": {
+                "main": "A powerful Superblend of wheat-based Hyaluronic Acid to plump and Vitamin C to help firm, tighten, smooth and improve skin appearance."
+            },
+            "images": [
+                {
+                    "path": "image-5.jpg"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "€",
+                    "amount": 89.00
+                }
+            ]
+        },
+        {
+            "productName": "Radiance Serum",
+            "productID": 1,
+            "dateAdded": "2024-01-06",
+            "description": {
+                "main": "A powerful Superblend of wheat-based Hyaluronic Acid to plump and Vitamin C to help firm, tighten, smooth and improve skin appearance."
+            },
+            "images": [
+                {
+                    "path": "image-4.jpg"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "€",
+                    "amount": 99.00
+                }
+            ]
+        },
+        {
+            "productName": "Radiance Serum",
+            "productID": 2,
+            "dateAdded": "2021-01-04",
+            "description": {
+                "main": "A powerful Superblend of wheat-based Hyaluronic Acid to plump and Vitamin C to help firm, tighten, smooth and improve skin appearance.",
+                "second": "A plumping 2% Hyaluronic Acid complex with Vitamin C to help hydrate and brighten tired-looking skin."
+            },
+            "images": [
+                {
+                    "path": "image-1.jpg"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "€",
+                    "amount": 149.00
+                }
+            ]
+        },
+        {
+            "productName": "Radiance Serum",
+            "productID": 3,
+            "dateAdded": "2020-01-07",
+            "description": {
+                "main": "A powerful Superblend of wheat-based Hyaluronic Acid to plump and Vitamin C to help firm, tighten, smooth and improve skin appearance."
+            },
+            "images": [
+                {
+                    "path": "image-3.jpg"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "€",
+                    "amount": 149.00
+                }
+            ]
+        },
+        {
+            "productName": "Radiance Serum",
+            "productID": 4,
+            "dateAdded": "2020-08-07",
+            "description": {
+                "main": "A powerful Superblend of wheat-based Hyaluronic Acid to plump and Vitamin C to help firm, tighten, smooth and improve skin appearance."
+            },
+            "images": [
+                {
+                    "path": "image-3.jpg"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "€",
+                    "amount": 169.00
+                }
+            ]
+        },
+        {
+            "productName": "Radiance Serum",
+            "productID": 5,
+            "dateAdded": "2020-05-07",
+            "description": {
+                "main": "A powerful Superblend of wheat-based Hyaluronic Acid to plump and Vitamin C to help firm, tighten, smooth and improve skin appearance."
+            },
+            "images": [
+                {
+                    "path": "image-3.jpg"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "€",
+                    "amount": 149.00
+                }
+            ]
+        }
+    ]
+}

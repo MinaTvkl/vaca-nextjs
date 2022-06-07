@@ -1,0 +1,218 @@
+$primaryColour: white;
+$textcolour: black;
+
+//
+.container {
+  padding: 0 0;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 1rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lowerHeader {
+  padding: 2rem 15vw;
+  background: url('/image-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  color: $primaryColour;
+}
+
+.upperHeader {
+  background-color: $primaryColour;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  color: $primaryColour;
+}
+
+.footer a {
+  display: flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.footer h1 {
+  margin: 0.5rem;
+}
+
+.title a {
+  color: $primaryColour;
+  text-decoration: none;
+}
+
+.upperFooter{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  background: url('/image-6.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  color: $primaryColour;
+}
+
+.lowerFooter{
+  padding: 1rem 3rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lowerFooter .buttons{
+  float: right;
+  margin-right: 0px;
+}
+
+.lowerFooter .buttons button{
+  margin:0;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+//grid-system for product cards
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px; 
+
+}
+
+//card design
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 380px;
+  width: 300px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+//overriding for Image tag in nextjs which has built in styling when img is generated
+.image {
+  width: 100% !important;
+  height: 40vh !important;
+  object-fit: cover;
+}
+
+.imageDark {
+  width: 100% !important;
+  height: 40vh !important;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: $textcolour;
+  border-color: $textcolour;
+}
+
+.card h2 {
+  font-size: 1rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.buttonClear {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  border: 2px solid $primaryColour;
+  padding: 0.5rem 1rem;
+  color: $primaryColour;
+  font-size: 1rem;
+} 
+
+.buttons{
+  margin: 0 auto;
+  display: inline;
+}
+
+.buttons button{
+  margin: 0.5rem;
+}
+
+.card .imageText {position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  margin: auto;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 13rem;
+  z-index: 3;
+  color: $primaryColour;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
